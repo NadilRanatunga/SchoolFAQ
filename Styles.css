@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
+
+body{
+    background-color: #f2fafe;
+}
+h1{
+    font-size: 100px;
+    color: #48424c;
+    font-family: 'Muli', sans-serif;
+    text-align: center;
+    border: 20px;
+}
+
+h2{
+    font-size: 30px;
+    color: #48424c;
+    font-family: 'Varela', sans-serif;
+    text-align: center;
+    border: 40px;
+}
