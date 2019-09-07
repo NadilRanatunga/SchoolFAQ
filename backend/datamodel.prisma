@@ -1,0 +1,20 @@
+type Answer {
+  id: ID! @id
+  author: String!
+  text: String!
+  createdAt: DateTime! @createdAt
+}
+
+type Thread {
+  id: ID! @id
+  question: String!
+  answer: [Answer]
+}
+
+type School {
+  id: ID! @id
+  name: String!
+  threads: [Thread]
+}
+
+
