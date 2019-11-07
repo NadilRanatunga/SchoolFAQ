@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Varela&display=swap');
 
 body{
-    background-color: #f2fafe;
+    background-image: linear-gradient(to bottom right, #40e0d0, #00fa9a);
 }
 h1{
     font-size: 100px;
     color: #48424c;
     font-family: 'Muli', sans-serif;
     text-align: center;
-    border: 20px;
 }
 
 h2{
@@ -17,5 +16,16 @@ h2{
     color: #48424c;
     font-family: 'Varela', sans-serif;
     text-align: center;
-    border: 40px;
+    border: 10px;
 }
+
+tr:nth-child(even){
+   background-color: #dddddd;
+}
+.container {
+    border: 2px solid black;
+    background-color: #b2fcf6;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+  }
